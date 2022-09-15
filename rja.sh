@@ -63,7 +63,7 @@ echo "Collecting data from https://${account}.blob.core.windows.net/${container}
 
 XML=""
 marker=""
-URI="https://${account}.blob.core.windows.net/${container}?restype=container&comp=list&${token}"
+URI="https://${account}.blob.core.windows.net/${container}?restype=container&comp=list${token}"
 
 while :
 do
