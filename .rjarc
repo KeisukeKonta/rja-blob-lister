@@ -1,0 +1,3 @@
+account:<account_name>
+container:<container_name>
+token:<account_SAS>
